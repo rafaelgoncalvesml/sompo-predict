@@ -43,12 +43,12 @@ da apólice e telemetria de campo.
 - Remoção explícita de data leakage antes do encoding
 - Validação dupla: split 70/30 estratificado + cross-validation 5-fold
 
-| Métrica | Valor |
-|---|---|
-| Acurácia treino | — |
-| Acurácia teste | 26,7% |
-| Baseline ingênuo | 44,4% |
-| F1-weighted | — |
+| Métrica          | Valor  |
+|------------------|--------|
+| Acurácia treino  | 75,0%  |
+| Acurácia teste   | 26,7%  |
+| Baseline ingênuo | 44,4%  |
+| F1-weighted      | 0,26   |
 
 > O modelo ficou abaixo do baseline ingênuo — e esse resultado é o insight
 > mais importante da sprint. Diagnóstico: os 7 atributos operacionais
